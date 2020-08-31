@@ -20,6 +20,6 @@ def compute_rouge_score(can, ref, is_input_files = False):
 
     evaluator = Rouge()
 
-    scores = evaluator.get_scores(candidates, [[iter] for iter in references])
+    scores = evaluator.get_scores(candidates, references)[0]
 
     return scores
