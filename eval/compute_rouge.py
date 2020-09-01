@@ -18,6 +18,8 @@ def compute_rouge_score(can, ref, is_input_files = False):
     print("#candidates: {}".format(len(candidates)))
     print("#references: {}".format(len(references)))
 
+    assert len(candidates) == len(references)
+
     evaluator = Rouge()
 
     scores = evaluator.get_scores(candidates, references)[0]
