@@ -6,13 +6,13 @@ import torch
 
 
 def get_bert_first_token_embeddings(data, cuda="cuda:3", dataColumn="Tweet", max_len=60):
-    model = BertModel('bert-base-uncased')
-    tokenizer = BertTokenizer('bert-base-uncased')
+    model = BertModel.from_pretrained('bert-base-uncased')
+    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     device = torch.device(cuda)
     model.to(device)
 
     encoded_data = data[dataColumn].apply(lambda x: tokenizer.encode_plus(
-        x, pad_to_max_length=True, max_length=60, add_special_tokens=True
+        x, pad_to_max_length=True, max_length=60, truncation = True
     ))
     encoded_data = pd.DataFrame(encoded_data.values.tolist())
     print("Encoded data: \n{}".format(encoded_data.head()))
@@ -42,13 +42,13 @@ def get_bert_first_token_embeddings(data, cuda="cuda:3", dataColumn="Tweet", max
 
 
 def get_bert_all_token_embeddings(data, cuda="cuda:3", dataColumn="Tweet", max_len=60):
-    model = BertModel('bert-base-uncased')
-    tokenizer = BertTokenizer('bert-base-uncased')
+    model = BertModel.from_pretrained('bert-base-uncased')
+    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     device = torch.device(cuda)
     model.to(device)
 
     encoded_data = data[dataColumn].apply(lambda x: tokenizer.encode_plus(
-        x, pad_to_max_length=True, max_length=60, add_special_tokens=True
+        x, pad_to_max_length=True, max_length=60, truncation=True
     ))
     encoded_data = pd.DataFrame(encoded_data.values.tolist())
     print("Encoded data: \n{}".format(encoded_data.head()))
@@ -79,7 +79,7 @@ def get_bert_all_token_embeddings(data, cuda="cuda:3", dataColumn="Tweet", max_l
     return embeddings
 
 
-def getSentenceTransformersEmbedings(data, cuda="cuda:3", dataColumn="Tweet", max_len=60):
+def get_sentence_transformers_embedings(data, cuda="cuda:3", dataColumn="Tweet", max_len=60):
     modelSent = SentenceTransformer('bert-base-nli-mean-tokens')
 
     leftBound = 0
