@@ -1,1 +1,1 @@
-from compute_rouge import compute_rouge_score
+from .compute_rouge import compute_rouge_score

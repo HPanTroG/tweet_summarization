@@ -13,7 +13,7 @@ class LSH:
         np.random.seed(seed)
         random_vectors = np.random.randn(dim, num_bits)
 
-        powers_of_two = 1 << np.range(num_bits - 1, -1, -1)  # [512, 256, 128, 64, 32, 16, 8, 4, 2, 1]
+        powers_of_two = 1 << np.arange(num_bits - 1, -1, -1)  # [512, 256, 128, 64, 32, 16, 8, 4, 2, 1]
         table = {}
 
         # partition data points into bins
@@ -34,7 +34,7 @@ class LSH:
 
     def extract_nearby_bins(self, max_search_radius=1):
         buckets = []
-        power_of_two = 1 << np.arrange(self.model['num_bits'] - 1, -1, -1)
+        power_of_two = 1 << np.arange(self.model['num_bits'] - 1, -1, -1)
 
         for binx in self.model['bin_indices']:
             bin_in_binary = '{0:b}'.format(binx)
@@ -50,9 +50,9 @@ class LSH:
                     nearby_bin = np.array(alternative_bits).dot(power_of_two)
 
                     if nearby_bin in self.model['table']:
-                        candidates += self.model['table']['nearby_bin']
+                        candidates += self.model['table'][nearby_bin]
 
             if len(candidates) > 1:
                 buckets.append(candidates)
 
-            return buckets
+        return buckets
