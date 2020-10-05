@@ -1,9 +1,12 @@
 from numpy.linalg import norm
 from fast_pagerank import pagerank
+from joblib import Parallel, delayed
 import numpy as np
 import scipy
 import time
-
+from tqdm import tqdm
+from bert_score import BERTScorer
+from multiprocessing import Manager
 
 class Lexrank:
     """
@@ -16,47 +19,68 @@ class Lexrank:
         self.graph = {}
         self.matrix = None
         self.scores = None
+           
     
-    def build_graph_bert_score(self, bert_score, search_radius = 1, sim_thres = 0.15, n=10000):
+    def compute_bert_score(self, scorers, sim_thres, bIdx, b):
+        
+        # compute bert_score and build graph
+#         scorer = scorers[bIdx%len(scorers)]
+        
+        time_start = time.time()
+        scorer = BERTScorer(lang='en', rescale_with_baseline = True, idf = True, 
+                              idf_sents = list(self.data))
+        count =0
+#         print("...bucket: {}....".format(bIdx))
+        for i in range(len(b)-1):
+            refs= [b[x] for x in range(i+1, len(b))]
+            _, _, f1 = scorer.score([self.data[b[i]]]*len(refs), list(self.data[refs]))
+            f1 = f1.numpy()
+            count+=np.count_nonzero(f1 >0.1)
+            for idx, score in enumerate(f1):
+                if score > sim_thres:
+                    count+=2
+                    if b[i] not in self.graph:
+                        self.graph[b[i]] = {}
+                    if b[idx] not in self.graph:
+                        self.graph[b[idx]] = {}
+                    self.graph[b[i]][b[idx]] = score
+                    self.graph[b[idx]][b[i]] = score
+        print("buc: {}-len: {}--{}, {}".format(bIdx,  len(b), time.time()-time_start, count*2/(len(b)*len(b))))
+    
+    def build_graph_bert_score(self, scorer, nJobs, search_radius = 1, sim_thres = 0.15):
         buckets = self.lsh.extract_nearby_bins(max_search_radius = search_radius)
         print("#buckets: {}".format(len(buckets)))
-        k = 0
-        time_start = time.time()
-        matrix_indices = []
-        weights = []
-        for b in buckets:
-                
-            if k%50==0:
-                time_end = time.time()
-                print(".......buck: {}, len: {}, time: {}".format(k, len(b), time_end-time_start))
-                time_start = time_end
-            # compute bert_score and build graph
+        k = 0    
+        
+        for bIdx, b in enumerate(buckets):
+            time_start = time.time()
+            count =0
+    #         print("...bucket: {}....".format(bIdx))
             for i in range(len(b)-1):
-          
                 refs= [b[x] for x in range(i+1, len(b))]
-                _, _, f1 = bert_score.score([self.data[b[i]]]*len(refs), list(self.data[refs]))
+                _, _, f1 = scorer.score([self.data[b[i]]]*len(refs), list(self.data[refs]))
+                f1 = f1.numpy()
+                count+=np.count_nonzero(f1 >0.1)
                 for idx, score in enumerate(f1):
                     if score > sim_thres:
+                        count+=2
                         if b[i] not in self.graph:
                             self.graph[b[i]] = {}
                         if b[idx] not in self.graph:
                             self.graph[b[idx]] = {}
                         self.graph[b[i]][b[idx]] = score
                         self.graph[b[idx]][b[i]] = score
-#                         matrix_indices.append([b[i],b[idx]])
-#                         matrix_indices.append([b[idx],b[i]])
-#                         weights.append(score)
-#                         weights.append(score)
-            k+=1
-#         matrix_indices = np.array(matrix_indices)
-# #         n = self.data.shape[0]
-#         self.matrix = scipy.sparse.csr_matrix((weights, (matrix_indices[:, 0], matrix_indices[:, 1])), shape = (n, n))   
+            print("buc: {}-len: {}--{}, {}".format(bIdx,  len(b), time.time()-time_start, count*2/(len(b)*len(b))))
+
+#         _ = Parallel(n_jobs=nJobs)(delayed(self.compute_bert_score)(scorers, sim_thres, bIdx, b) for bIdx, b in enumerate(buckets))
+                 
+  
 
     def build_graph(self, search_radius=0, cosine_sim=0.3, percent=1):
 
         # in case of applying fast_pagerank library
-        matrix_indices = []
-        weights = []
+#         matrix_indices = []
+#         weights = []
 
         buckets = self.lsh.extract_nearby_bins(max_search_radius=search_radius)
         print("#buckets: {}".format(len(buckets)))
@@ -91,8 +115,8 @@ class Lexrank:
             for row, col in zip(indices[0], indices[1]):
                 if row != col:  # ignore self-links
 
-                    matrix_indices.append([b[row], b[col]])
-                    weights.append(cosine_matrix[row][col])
+#                     matrix_indices.append([b[row], b[col]])
+#                     weights.append(cosine_matrix[row][col])
 #                     weights.append(1)
 
                     if b[row] not in self.graph:
@@ -100,16 +124,16 @@ class Lexrank:
                     if percent != 1:
                         if b[col] not in self.graph:
                             self.graph[b[col]] = {}
-
                         self.graph[b[col]][b[row]] = cosine_matrix[row][col]
+                        
                     self.graph[b[row]][b[col]] = cosine_matrix[row][col]
             
 
             k += 1
 #             break
-        matrix_indices = np.array(matrix_indices)
-        n = self.data.shape[0]
-        self.matrix = scipy.sparse.csr_matrix((weights, (matrix_indices[:, 0], matrix_indices[:, 1])), shape = (n, n))
+#         matrix_indices = np.array(matrix_indices)
+#         n = self.data.shape[0]
+#         self.matrix = scipy.sparse.csr_matrix((weights, (matrix_indices[:, 0], matrix_indices[:, 1])), shape = (n, n))
 
     # using pagerank pagekage
     def page_rank(self, damping_factor=0.85):
