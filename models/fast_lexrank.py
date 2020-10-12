@@ -21,14 +21,12 @@ class Lexrank:
         self.scores = None
            
     
-    def compute_bert_score(self, scorers, sim_thres, bIdx, b):
+    def compute_bert_score(self, scorer, sim_thres, bIdx, b):
         
         # compute bert_score and build graph
 #         scorer = scorers[bIdx%len(scorers)]
         
         time_start = time.time()
-        scorer = BERTScorer(lang='en', rescale_with_baseline = True, idf = True, 
-                              idf_sents = list(self.data))
         count =0
 #         print("...bucket: {}....".format(bIdx))
         for i in range(len(b)-1):
@@ -45,34 +43,34 @@ class Lexrank:
                         self.graph[b[idx]] = {}
                     self.graph[b[i]][b[idx]] = score
                     self.graph[b[idx]][b[i]] = score
-        print("buc: {}-len: {}--{}, {}".format(bIdx,  len(b), time.time()-time_start, count*2/(len(b)*len(b))))
+        print("buc: {}-len: {}--{}, {}".format(bIdx,  len(b), time.time()-time_start, count/(len(b)*len(b))))
     
     def build_graph_bert_score(self, scorer, nJobs, search_radius = 1, sim_thres = 0.15):
         buckets = self.lsh.extract_nearby_bins(max_search_radius = search_radius)
         print("#buckets: {}".format(len(buckets)))
         k = 0    
         
-        for bIdx, b in enumerate(buckets):
-            time_start = time.time()
-            count =0
-    #         print("...bucket: {}....".format(bIdx))
-            for i in range(len(b)-1):
-                refs= [b[x] for x in range(i+1, len(b))]
-                _, _, f1 = scorer.score([self.data[b[i]]]*len(refs), list(self.data[refs]))
-                f1 = f1.numpy()
-                count+=np.count_nonzero(f1 >0.1)
-                for idx, score in enumerate(f1):
-                    if score > sim_thres:
-                        count+=2
-                        if b[i] not in self.graph:
-                            self.graph[b[i]] = {}
-                        if b[idx] not in self.graph:
-                            self.graph[b[idx]] = {}
-                        self.graph[b[i]][b[idx]] = score
-                        self.graph[b[idx]][b[i]] = score
-            print("buc: {}-len: {}--{}, {}".format(bIdx,  len(b), time.time()-time_start, count*2/(len(b)*len(b))))
+#         for bIdx, b in enumerate(buckets):
+#             time_start = time.time()
+#             count =0
+#     #         print("...bucket: {}....".format(bIdx))
+#             for i in range(len(b)-1):
+#                 refs= [b[x] for x in range(i+1, len(b))]
+#                 _, _, f1 = scorer.score([self.data[b[i]]]*len(refs), list(self.data[refs]))
+#                 f1 = f1.numpy()
+#                 count+=np.count_nonzero(f1 >0.1)
+#                 for idx, score in enumerate(f1):
+#                     if score > sim_thres:
+#                         count+=2
+#                         if b[i] not in self.graph:
+#                             self.graph[b[i]] = {}
+#                         if b[idx] not in self.graph:
+#                             self.graph[b[idx]] = {}
+#                         self.graph[b[i]][b[idx]] = score
+#                         self.graph[b[idx]][b[i]] = score
+#             print("buc: {}-len: {}--{}, {}".format(bIdx,  len(b), time.time()-time_start, count/(len(b)*len(b))))
 
-#         _ = Parallel(n_jobs=nJobs)(delayed(self.compute_bert_score)(scorers, sim_thres, bIdx, b) for bIdx, b in enumerate(buckets))
+        _ = Parallel(n_jobs=nJobs)(delayed(self.compute_bert_score)(scorer, sim_thres, bIdx, b) for bIdx, b in enumerate(buckets))
                  
   
 
@@ -99,7 +97,7 @@ class Lexrank:
 
             cosine_matrix = np.array(num / den)
             indices = np.where(cosine_matrix > cosine_sim)  # find positions with cosine values > cosine_sim
-
+#             print("buc: ", k, "len:", len(b), len(indices[0])/(len(b)*len(b)))
             n = cosine_matrix.shape[0]  # number of sentences = data.shape[0]
             
             if percent != 1:
