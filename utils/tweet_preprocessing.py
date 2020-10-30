@@ -252,11 +252,11 @@ def simpleTokenize(text):
     for i in range(len(bads)):
         zippedStr = addAllnonempty(zippedStr, splitGoods[i])
         if re.compile(url).match(bads[i][0]):
-            zippedStr = addAllnonempty(zippedStr, ['@URL'])
+            zippedStr = addAllnonempty(zippedStr, ['HTTPURL'])
         elif re.compile(Email).match(bads[i][0]):
-            zippedStr = addAllnonempty(zippedStr, ['@EMAIL'])
+            zippedStr = addAllnonempty(zippedStr, ['EMAILADDRESS'])
         elif re.compile(AtMention).match(bads[i][0]):
-            zippedStr = addAllnonempty(zippedStr, ['@MENTION'])
+            zippedStr = addAllnonempty(zippedStr, ['TWEETMENTION'])
         else:
             zippedStr = addAllnonempty(zippedStr, bads[i])
     zippedStr = addAllnonempty(zippedStr, splitGoods[len(bads)])
