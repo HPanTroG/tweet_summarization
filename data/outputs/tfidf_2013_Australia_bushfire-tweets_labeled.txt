@@ -1,0 +1,51 @@
+1. 0.00475145028272925 australia bush fires menace new south wales homes scores bush fires blazing australias new south wales	Related and informative
+2. 0.004005017802343406 emergency warning linksview rd springwood nswfires nswrfs	Related and informative
+3. 0.003948276033823657 thoughts prayers affected nsw fires stay safe nswfires bushfires	Related - but not informative
+4. 0.003403035548789987 bushfires nswfires sydney	Related and informative
+5. 0.002565009934168147 nsw rural fire service	Related and informative
+6. 0.0023629562995154335 megafire fears australia	Related - but not informative
+7. 0.0021106117661790847 photo dozens cars fire sydney olympic park aquatic centre	Related and informative
+8. 0.002032753092075129 massive australia bush fire started defence department via	Related and informative
+9. 0.002032753092075129 says talking hat linking nswfires climate change	Related and informative
+10. 0.001958740755065275 sydneyfires bushfire sydney smoke nofilter	Related - but not informative
+11. 0.0019091275687530295 australia fires nsw blue mountains fires could merge bbc news	Related and informative
+12. 0.001879955190428959 could use nswfires would great	Related - but not informative
+13. 0.001725212815195656 new emergency warning issued burning embers blown towards wilton says nswfires	Related and informative
+14. 0.0017102872170309414 plane fighting australia fires crashes cooler weather eases threat via	Related and informative
+15. 0.0016976783337832367 total fire bans declared greater sydney greater hunter illawarra central ranges notice due	Related and informative
+16. 0.0016857019800106106 amazing amazing photo one bush fires burning nsw australia	Related and informative
+17. 0.0016463568964046665 homes lost springwood blue mountains latest details fires nswfires	Related and informative
+18. 0.0016269801644542628 australia fire threat averted	Related and informative
+19. 0.0016163773700615745 officials least 57 bush fires rage australia state emergency declared	Related and informative
+20. 0.0016137737187960858 follow nswfires coverage live blog	Related and informative
+21. 0.0015500028146686435 lithgow fire fire jumped bells line road nswrfs nswfires	Related and informative
+22. 0.0015460375629867203 thank nswfires heroes	Related - but not informative
+23. 0.0015460375629867164 live near bush fire zone please put bucket water wildlife please retweet nswfires wildlife	Related and informative
+24. 0.0015460375629867157 record hot year causes fire emergency australia hottest 12 months record australia resulted	Related and informative
+25. 0.0015460375629867155 rolling coverage nswfires onair online	Related and informative
+..........Uncleaned data............
+1. 0.00475145028272925 Australia bush fires menace New South Wales homes: Scores of bush fires blazing in Australia's New South Wales... http://t.co/7B7rY1zRm9
+2. 0.004005017802343406 RT @NSWRFS: Emergency Warning: Linksview Rd, Springwood  http://t.co/l9TPwsbuM2 #nswfires #nswrfs
+3. 0.003948276033823657 My thoughts and prayers are with all those affected by the NSW fires. Stay safe! #nswfires #bushfires
+4. 0.003403035548789987 #bushfires #nswfires #sydney http://t.co/5IkviWyiyu
+5. 0.002565009934168147 NSW Rural Fire Service http://t.co/tZfEYUrtn5
+6. 0.0023629562995154335 'Mega-fire' fears in Australia http://t.co/6RqeqYsWxr
+7. 0.0021106117661790847 RT @7NewsBrisbane: PHOTO: Dozens of cars are on fire at Sydney Olympic Park Aquatic Centre http://t.co/Lx2ZkZgzO1
+8. 0.002032753092075129 Massive Australia bush fire 'started by Defence Department' via @Telegraph http://t.co/gnxE5T6gEs
+9. 0.002032753092075129 RT @ABCenvironment: . @TonyAbbottMHR says @CFigueres is talking through her hat for linking #NSWfires with #climate change http://t.co/l2…
+10. 0.001958740755065275 #sydneyfires #bushfire #sydney #smoke #nofilter http://t.co/Ws1i1vrE6c
+11. 0.0019091275687530295 Australia fires: NSW Blue Mountains fires 'could merge' - BBC News http://t.co/iI1kEp2sr6
+12. 0.001879955190428959 @kumitaguchi if you could use #nswfires that would be great
+13. 0.001725212815195656 RT @smh: New emergency warning issued. Burning embers being blown towards Wilton, @NSWRFS says: http://t.co/sNgMIGq9YA #nswfires
+14. 0.0017102872170309414 Plane fighting Australia fires crashes as cooler weather eases threat http://t.co/wH0nJNa1je via @reuters
+15. 0.0016976783337832367 RT @NSWRFS: Total fire bans are being declared in greater Sydney, Greater Hunter, Illawarra and Central ranges until further notice due to …
+16. 0.0016857019800106106 RT @JHutcheon: Amazing RT @Metaldad555666: Amazing photo of just one of the bush fires burning in NSW, #Australia http://t.co/94UqHincVY
+17. 0.0016463568964046665 RT @Wendy_Kingston: Homes lost in Springwood in the Blue Mountains. Latest details on the fires. @9NewsNOW #nswfires
+18. 0.0016269801644542628 Australia fire threat 'averted' http://t.co/DIrQ53cvSa
+19. 0.0016163773700615745 RT @cnnbrk: Officials: At least 57 bush fires rage in Australia; state of emergency declared http://t.co/s7scPbUAod
+20. 0.0016137737187960858 Follow the #nswfires coverage with our live blog @smh http://t.co/ETwDZxGg49
+21. 0.0015500028146686435 RT @NSWRFS: #Lithgow Fire: The fire has jumped Bells Line of Road. #NSWRFS #nswfires
+22. 0.0015460375629867203 RT @TripleMSydney: .@NSWRFS @nswpolice @salvos Thank You. #nswfires #heroes http://t.co/vGrDKSCB8r
+23. 0.0015460375629867164 RT @LC2020: If you live near a bush fire zone please put out a bucket of water for wildlife. Please retweet #nswfires #wildlife http://t.co…
+24. 0.0015460375629867157 Record hot year causes fire emergency in Australia: The hottest 12 months on record in Australia have resulted... http://t.co/6EyIoZDIfj
+25. 0.0015460375629867155 Rolling coverage of #nswfires onair and online - http://t.co/Xv3MmiX8Cf

@@ -1,0 +1,37 @@
+1. 0.011619380304052724 praying for alberta . #flooding	Related - but not informative
+2. 0.011051788992547018 maps : evacuated areas in the city of calgary : httpurl #yyc #yycfloods	Related and informative
+3. 0.005514169515285522 expected to be touring high river and area tomorrow . #abflood	Related and informative
+4. 0.005182226463357518 thanks to for sending your troops to help us with #yycflood #yyc	Related - but not informative
+5. 0.004971436811346681 . expecting service disruptions tomorrow httpurl #yycflood	Related and informative
+6. 0.004855891369316683 what is happening to the animals at the zoo ? #yycflood	Related - but not informative
+7. 0.00393649074940141 wow , i've never seen the river this high before . #abflooding #yycflood	Related - but not informative
+8. 0.0026107347010116506 haven't heard much about the homeless during #yycflood . glad is looking out for them tonight .	Related and informative
+9. 0.002346058805164373 calgary floods trigger an oil spill and a mass evacuation : httpurl	Related and informative
+10. 0.0021318819127287094 to everyone in southern #alberta , stay safe and dry during this insane #flooding ! for anyone in the affected areas , httpurl	Related and informative
+11. 0.002122032499455571 canmore , alta . declares state of emergency due to flooding - with some residents being moved to community centre #alberta	Related and informative
+12. 0.002016899590254625 major risk of flooding in calgary . follow directions here : httpurl and stay tuned . please widely . #yyc	Related and informative
+13. 0.0019860247340458444 city of calgary expecting 75,000 to 100,000 people in #yyc will be forced from their homes because of flooding . #abflood	Related and informative
+14. 0.0019176792928215756 bridge at edworthy park #yycflood @ edworthy park httpurl	Related and informative
+15. 0.0018794747845031505 due to rising water levels the lower deck of centre street bridge has been closed . be careful #yycflood	Related and informative
+16. 0.0018742451678302877 ama tells me most people with flooded homes will not have insurance since flood insurance doesn't exist for homes in canada #	Related and informative
+17. 0.0017928985086748325 if you're stuck in the house today , here is a fun activity to do with the kids httpurl #yycflood #abflood #yyc	Related - but not informative
+18. 0.0017038720409755423 there is a lower bridge deck on this bridge #abflood #yycflood httpurl	Related - but not informative
+..........Uncleaned data............
+1. 0.011619380304052724 Praying for Alberta. #flooding
+2. 0.011051788992547018 RT @GlobalCalgary: MAPS: Evacuated areas in the city of Calgary: http://t.co/4thr9fCXmc #YYC #yycfloods
+3. 0.005514169515285522 @Premier_Redford expected to be touring High River and area tomorrow. #ABflood
+4. 0.005182226463357518 RT @CstShaw: Thanks to @EdmontonPolice for sending your troops to help us with #yycflood #yyc
+5. 0.004971436811346681 RT @Daorcey: .@calgarytransit expecting service disruptions tomorrow http://t.co/NmNBVkT0MZ #yycflood
+6. 0.004855891369316683 @CstShaw What is happening to the animals at the zoo? #yycflood
+7. 0.00393649074940141 Wow, I've never seen the river this high before.  #abflooding #yycflood
+8. 0.0026107347010116506 Haven't heard much about the homeless during #yycflood. Glad @calgarydropin is looking out for them tonight.
+9. 0.002346058805164373 Calgary floods trigger an oil spill and a mass evacuation: http://t.co/uW4NMxW7ED
+10. 0.0021318819127287094 To everyone in southern #Alberta, stay safe and dry during this insane #flooding! For anyone in the affected areas, http://t.co/Z6Q5U9kKxI
+11. 0.002122032499455571 RT @CBCAlerts: Canmore, Alta. declares state of emergency due to flooding  - with some residents being moved to community centre #Alberta
+12. 0.002016899590254625 RT @nenshi: Major risk of flooding in Calgary. Follow directions here: http://t.co/7dLx8aZptf and stay tuned. Please RT widely. #YYC
+13. 0.0019860247340458444 RT @CBCCalgary: City of Calgary expecting 75,000 to 100,000 people in #yyc will be forced from their homes because of flooding. #abflood
+14. 0.0019176792928215756 Bridge at Edworthy park #yycflood @ Edworthy Park http://t.co/wkkQLhftRj
+15. 0.0018794747845031505 RT @cityofcalgary: Due to rising water levels the lower deck of Centre Street bridge has been closed. Be careful #yycflood
+16. 0.0018742451678302877 RT @CBC_Carla: AMA tells me MOST people with flooded homes will not have insurance since flood insurance doesn't exist for homes in Canada #
+17. 0.0017928985086748325 RT @kidscbc: If you're stuck in the house today, here is a fun activity to do with the kids http://t.co/26U5flPf16 #yycflood #abflood #yyc
+18. 0.0017038720409755423 RT @LX787SToms: There is a lower bridge deck on this bridge #abflood #yycflood http://t.co/8RITo19sHz

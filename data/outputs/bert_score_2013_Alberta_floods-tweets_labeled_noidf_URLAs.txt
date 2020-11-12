@@ -1,0 +1,37 @@
+1. 0.003439229930737353 what is happening to the animals at the zoo ? #yycflood	Related - but not informative
+2. 0.002733467934863552 stay safe , alberta . #abflood	Related - but not informative
+3. 0.0023911504378024678 the floods in calgary are crazy	Related - but not informative
+4. 0.0023427684259453726 update : latest from the and surrounding area on #abflood : httpurl #yyc	Related and informative
+5. 0.0017780649289925398 calgary is now in a local state of emergency . lots of evacuations and road closures . stay safe !! #yycflood #yyc	Related and informative
+6. 0.001544072687712785 red cross responding to alberta flooding httpurl	Related and informative
+7. 0.0014457624762125995 #abflood #cochrane #hwy22 wow ! #yyc #flood #ab httpurl	Related - but not informative
+8. 0.001420266860765825 now there's bad flooding in #alberta ? oh no ... thinking of my western neighbours tonight ! #floods	Related and informative
+9. 0.001293296824339413 . have exceeded their tweet limit - follow for #yycflood updates .	Related and informative
+10. 0.0010979763748301431 army trucks on the roll #reddeer #costco prayers for those helping #abflood httpurl	Related and informative
+11. 0.0009629944613817274 any organizations doubting the usefulness and benefit of social media today clearly aren't aware of #abflood	Related and informative
+12. 0.0007870133771808494 mandatory evacuations ordered in calgary from flooding ; 100,000 people may be affected httpurl	Related and informative
+13. 0.0007485827948913482 . and other volunteers now stranded inside high river general hospital until water recedes . #abflood #ab …	Related and informative
+14. 0.0007429084761881344 wild httpurl #abflood #beautiful song	Related - but not informative
+15. 0.0006402100881457574 if you are in #canmore & need help , an emergency line has been set up . please call 403-678-1551 #abstorm #abflood	Related and informative
+16. 0.0005977797113633659 watch : house washed away by flooding river in southern canada crashes into bridge httpurl	Related and informative
+17. 0.0005803523986824437 #yycflood east elbow park httpurl	Related and informative
+18. 0.0005434097717170693 due to widespread flooding parts of calgary are being evacuated . ppl are asked to find shelter and to be prepared for t …	Related and informative
+..........Uncleaned data............
+1. 0.003439229930737353 @CstShaw What is happening to the animals at the zoo? #yycflood
+2. 0.002733467934863552 Stay safe, Alberta. #ABflood
+3. 0.0023911504378024678 The floods in Calgary are crazy 😧
+4. 0.0023427684259453726 RT @metrocalgary: UPDATE: Latest from the @cityofcalgary and surrounding area on #abflood: http://t.co/lkA9L9zSvT #yyc
+5. 0.0017780649289925398 Calgary is now in a local state of emergency. Lots of evacuations and road closures. Stay safe!!  #yycflood #yyc
+6. 0.001544072687712785 Red Cross Responding to Alberta Flooding http://t.co/jw7zIyk2X7
+7. 0.0014457624762125995 #Abflood #cochrane #hwy22 wow! #yyc #flood #ab https://t.co/kvpJ9sg5lJ
+8. 0.001420266860765825 Now there's bad flooding in #Alberta? Oh no... Thinking of my Western neighbours tonight! #floods
+9. 0.001293296824339413 RT @NHLFlames: .@CalgaryPolice have exceeded their tweet limit - follow @CstShaw for #yycflood updates.
+10. 0.0010979763748301431 RT @BridgingFoxes: Army trucks on the roll #reddeer #costco Prayers for those helping #abflood http://t.co/FsnCVrZ7s3
+11. 0.0009629944613817274 RT @bingofuel: Any organizations doubting the usefulness and benefit of social media today clearly aren't aware of #abflood
+12. 0.0007870133771808494 Mandatory evacuations ordered in Calgary from flooding; 100,000 people may be affected http://t.co/MSnhzhpXdk
+13. 0.0007485827948913482 RT @BrockWHarrison: . @ElectDanielle and other volunteers now stranded inside High River General Hospital until water recedes. #abflood #ab…
+14. 0.0007429084761881344 @Premier_Redford @nenshi @TeamWildrose wildhttp://www.youtube.com/watch?v=rQC3V0nJZZ8 #abflood #beautiful song
+15. 0.0006402100881457574 RT @TarzanDan: If you are in #Canmore &amp; need help, an emergency line has been set up. Please call 403-678-1551 #abstorm #abflood
+16. 0.0005977797113633659 RT @YahooNews: WATCH: House washed away by flooding river in southern Canada crashes into bridge http://t.co/AxCm5S8N7o
+17. 0.0005803523986824437 RT @betheed: #yycflood East Elbow Park http://t.co/Efvk63yU7U
+18. 0.0005434097717170693 RT @News1130radio: Due to widespread flooding parts of Calgary are being evacuated.  Ppl are asked to find shelter and to be prepared for t…

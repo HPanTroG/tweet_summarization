@@ -3,6 +3,7 @@
 """
 Twokenize -- a tokenizer designed for Twitter text in English and some other European languages.
 This tokenizer code has gone through a long history:
+
 (1) Brendan O'Connor wrote original version in Python, http://github.com/brendano/tweetmotif
        TweetMotif: Exploratory Search and Topic Summarization for Twitter.
        Brendan O'Connor, Michel Krieger, and David Ahn.
@@ -12,8 +13,11 @@ This tokenizer code has gone through a long history:
 (3) Brendan bugfixed the Scala port and merged with POS-specific changes
     for the CMU ARK Twitter POS Tagger
 (4) Tobi Owoputi ported it back to Java and added many improvements (2012-06)
+
 Current home is http://github.com/brendano/ark-tweet-nlp and http://www.ark.cs.cmu.edu/TweetNLP
+
 There have been at least 2 other Java ports, but they are not in the lineage for the code here.
+
 Ported to Python by Myle Ott <myleott@gmail.com>.
 """
 from __future__ import unicode_literals
@@ -21,7 +25,6 @@ from __future__ import unicode_literals
 import operator
 import re
 import sys
-
 
 try:
     from html.parser import HTMLParser
@@ -226,6 +229,7 @@ def simpleTokenize(text):
         if (match.start() != match.end()): #unnecessary?
             bads.append( [splitPunctText[match.start():match.end()]] )
             badSpans.append( (match.start(), match.end()) )
+
     # Create a list of indices to create the "goods", which can be
     # split. We are taking "bad" spans like
     #     List((2,5), (8,10))
