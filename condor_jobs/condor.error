@@ -1,0 +1,10 @@
+/home/ehoang/miniconda3/envs/py37/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1324: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  FutureWarning,
+/home/ehoang/miniconda3/envs/py37/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1324: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  FutureWarning,
+/home/ehoang/miniconda3/envs/py37/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1324: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  FutureWarning,
+/home/ehoang/miniconda3/envs/py37/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1324: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  FutureWarning,
+/home/ehoang/miniconda3/envs/py37/lib/python3.7/site-packages/transformers/tokenization_utils_base.py:1324: FutureWarning: The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
+  FutureWarning,

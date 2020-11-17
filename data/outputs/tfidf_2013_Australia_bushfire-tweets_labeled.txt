@@ -18,11 +18,6 @@
 18. 0.0016269801644542628 australia fire threat averted	Related and informative
 19. 0.0016163773700615745 officials least 57 bush fires rage australia state emergency declared	Related and informative
 20. 0.0016137737187960858 follow nswfires coverage live blog	Related and informative
-21. 0.0015500028146686435 lithgow fire fire jumped bells line road nswrfs nswfires	Related and informative
-22. 0.0015460375629867203 thank nswfires heroes	Related - but not informative
-23. 0.0015460375629867164 live near bush fire zone please put bucket water wildlife please retweet nswfires wildlife	Related and informative
-24. 0.0015460375629867157 record hot year causes fire emergency australia hottest 12 months record australia resulted	Related and informative
-25. 0.0015460375629867155 rolling coverage nswfires onair online	Related and informative
 ..........Uncleaned data............
 1. 0.00475145028272925 Australia bush fires menace New South Wales homes: Scores of bush fires blazing in Australia's New South Wales... http://t.co/7B7rY1zRm9
 2. 0.004005017802343406 RT @NSWRFS: Emergency Warning: Linksview Rd, Springwood  http://t.co/l9TPwsbuM2 #nswfires #nswrfs
@@ -44,8 +39,3 @@
 18. 0.0016269801644542628 Australia fire threat 'averted' http://t.co/DIrQ53cvSa
 19. 0.0016163773700615745 RT @cnnbrk: Officials: At least 57 bush fires rage in Australia; state of emergency declared http://t.co/s7scPbUAod
 20. 0.0016137737187960858 Follow the #nswfires coverage with our live blog @smh http://t.co/ETwDZxGg49
-21. 0.0015500028146686435 RT @NSWRFS: #Lithgow Fire: The fire has jumped Bells Line of Road. #NSWRFS #nswfires
-22. 0.0015460375629867203 RT @TripleMSydney: .@NSWRFS @nswpolice @salvos Thank You. #nswfires #heroes http://t.co/vGrDKSCB8r
-23. 0.0015460375629867164 RT @LC2020: If you live near a bush fire zone please put out a bucket of water for wildlife. Please retweet #nswfires #wildlife http://t.co…
-24. 0.0015460375629867157 Record hot year causes fire emergency in Australia: The hottest 12 months on record in Australia have resulted... http://t.co/6EyIoZDIfj
-25. 0.0015460375629867155 Rolling coverage of #nswfires onair and online - http://t.co/Xv3MmiX8Cf

@@ -16,13 +16,6 @@
 16. 0.0016962284740866067 update flooding response alberta	Related and informative
 17. 0.0016763314940481005 update yyc flood evacuation areas abflood	Related and informative
 18. 0.001622838176565508 accepting financial donations assist people affected flooding alberta abflood	Related and informative
-19. 0.0016146987232340604 lol alberta flood 2013	Related - but not informative
-20. 0.0015935529765158355 city calgary expecting 75000 100000 people yyc forced homes flooding abflood	Related and informative
-21. 0.0015633595045918512 panorama stampede grandstand yycflood abflood yyc	Related and informative
-22. 0.0014996059185293184 city calgary boil water order yyc yycflood	Related and informative
-23. 0.0014922898358481229 live streaming special calgary edition right yycflood abflood	Related and informative
-24. 0.0014922898358481218 thanks sending troops help us yycflood yyc	Related - but not informative
-25. 0.0014922898358481192 flooding st marys high school ccsd yycflood	Related and informative
 ..........Uncleaned data............
 1. 0.004100671878734255 RT @AnaheimDucks: Our thoughts are with the @NHLFlames and everyone affected by the #yycflood! Stay safe!
 2. 0.003607170074676546 RT @BambooCreative_: Calgary Flood: How to Help Out http://t.co/cX43g4FAjz @yychelps @cityofcalgary @calgaryhumane @neighbourlink @redcross…
@@ -42,10 +35,3 @@
 16. 0.0016962284740866067 Update on flooding response in Alberta http://t.co/RZjqRmIZji @redcrosscanada
 17. 0.0016763314940481005 UPDATE: #YYC flood evacuation areas #abflood http://t.co/C2MZMWkVo9
 18. 0.001622838176565508 RT @redcrosscanada: We are accepting financial donations to assist people affected by flooding in Alberta: http://t.co/Xd9mbM2uj8 #abflood
-19. 0.0016146987232340604 Lol Alberta flood 2013
-20. 0.0015935529765158355 RT @CBCCalgary: City of Calgary expecting 75,000 to 100,000 people in #yyc will be forced from their homes because of flooding. #abflood
-21. 0.0015633595045918512 RT @ChoiceZnewZ: Panorama of the Stampede grandstand from above http://t.co/h9sMS7pdt1 RT @TheIdeaFoundry #yycflood #abflood #yyc
-22. 0.0014996059185293184 RT @cityofcalgary: City of Calgary NOT under boil water order. @AHS_media #yyc  http://t.co/6IYE7cHc16 #yycflood
-23. 0.0014922898358481229 RT @GlobalCalgary: We are live streaming a special Calgary edition of @GlobalNational right now - http://t.co/tjXEoTHOqP #yycflood #abflood
-24. 0.0014922898358481218 RT @CstShaw: Thanks to @EdmontonPolice for sending your troops to help us with #yycflood #yyc
-25. 0.0014922898358481192 Flooding at St. Mary's High School. #CCSD #yycflood http://t.co/XY64dK0MDX

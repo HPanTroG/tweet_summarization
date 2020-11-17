@@ -1,0 +1,41 @@
+1. 706 coronavirus world map : which countries have the most cases and deaths ?   UNINFORMATIVE
+2. 455 officials confirmed 61 new coronavirus cases in l.a. county friday . the new cases bring the county’s total to 292 .   INFORMATIVE
+3. 173 biden , blaming trump , says u.s. has more coronavirus cases than china   UNINFORMATIVE
+4. 205 n.j. closes adult daycare facilities statewide as coronavirus cases increase to more than 800   INFORMATIVE
+5. 195 u.s. surpasses 200k coronavirus cases aa states issue strict stay-at-home orders   INFORMATIVE
+6. 153 why only 1.5% of virus patients made recovery in south korea #covid19 #corona #coronavirus #coronavirusupdate   UNINFORMATIVE
+7. 133 nc’s second coronavirus case originated in italy ; chatham man now isolated at home   INFORMATIVE
+8. 118 over 50k ppl . have recovered from the corona virus around the world .   INFORMATIVE
+9. 87 together , we can stop the spread of #covid19 . here are the most recent guidelines for americans from the and #coronavirus   UNINFORMATIVE
+10. 107 research finds the u.s. leads in coronavirus cases , but lags behind in pandemic response   UNINFORMATIVE
+11. 120 new : 2 die from coronavirus in florida , raising us death toll to 17   INFORMATIVE
+12. 85 coronavirus : italian patient ‘ fully recovered , to be discharged soon ’   INFORMATIVE
+13. 102 #update maryland details new information after 3 coronavirus cases were confirmed in maryland by officials .   INFORMATIVE
+14. 89 healthnews : houston hasn't reported a surge of coronavirus cases . but its hospitals tell a different story .   UNINFORMATIVE
+15. 82 break : more awful news from spain . 394 coronavirus deaths , up 30% in past 24 hours , 600 new deaths in italy   INFORMATIVE
+16. 48 experts and trump’s advisers doubt white house’s 240,000 coronavirus deaths estimate   UNINFORMATIVE
+17. 56 breaking news : according to reports , we have 10 new cases of coronavirus in nigeria , 3 in abuja and 7 in lagos   INFORMATIVE
+18. 83 more recoveries ! the department of health reports 7 new covid-19 recoveries , bringing the total number of recovered patients to 49 . please stay at home ! #covid19ph   INFORMATIVE
+19. 84 #egypt reported nine new #coronavirus cases and two fatalities on saturday , the health ministry said in a statement , bringing the totals to 294 confirmed infections and 10 deaths   INFORMATIVE
+20. 51 new estimates say oregon’s covid-19 cases could peak in may   UNINFORMATIVE
+..........Uncleaned data............
+1. 0.015737256665962956 Coronavirus world map: which countries have the most cases and deaths? HTTPURL HTTPURL
+2. 0.008032346503408545 Officials confirmed 61 new coronavirus cases in L.A. County Friday. The new cases bring the county’s total to 292. HTTPURL
+3. 0.003911564895409711 Biden, blaming Trump, says U.S. has more coronavirus cases than China HTTPURL
+4. 0.003686468059735254 N.J. closes adult daycare facilities statewide as coronavirus cases increase to more than 800 HTTPURL
+5. 0.003654991289688578 U.S. Surpasses 200K Coronavirus Cases Aa States Issue Strict Stay-At-Home Orders HTTPURL
+6. 0.003101619873314087 Why only 1.5% of virus patients made recovery in South Korea #COVID19 #Corona #Coronavirus #CoronavirusUpdate HTTPURL TWEETMENTION
+7. 0.0025984471830596844 NC’s second coronavirus case originated in Italy; Chatham man now isolated at home HTTPURL
+8. 0.002519734530509416 Over 50K ppl. have RECOVERED from the corona virus around the world. HTTPURL
+9. 0.002219609280978742 Together, we can stop the spread of #COVID19. Here are the most recent guidelines for Americans from the TWEETMENTION and TWEETMENTION #coronavirus HTTPURL HTTPURL
+10. 0.0022146723532818864 Research Finds The U.S. Leads In Coronavirus Cases, But Lags Behind In Pandemic Response HTTPURL HTTPURL
+11. 0.001858512761784495 NEW: 2 die from coronavirus in Florida, raising US death toll to 17
+12. 0.0018439647924839615 Coronavirus: Italian patient ‘fully recovered, to be discharged soon’ HTTPURL HTTPURL
+13. 0.0016291526091300437 #Update TWEETMENTION Maryland TWEETMENTION details new information after 3 Coronavirus cases were confirmed in Maryland by officials. HTTPURL HTTPURL
+14. 0.0014751939318959175 🌎🦠😷Healthnews: Houston hasn't reported a surge of coronavirus cases. But its hospitals tell a different story. HTTPURL
+15. 0.0014289073736986541 BREAK: More awful news from Spain. 394 coronavirus deaths, up 30% in past 24 hours, 600 new deaths in Italy😒
+16. 0.001260939258977402 Experts and Trump’s advisers doubt White House’s 240,000 coronavirus deaths estimate HTTPURL
+17. 0.001239190334426349 BREAKING NEWS : According to TWEETMENTION reports, we have 10 new cases of CoronaVirus in Nigeria , 3 in Abuja and 7 in Lagos🥺 HTTPURL
+18. 0.0011832516539296775 MORE RECOVERIES! The Department of Health reports 7 new COVID-19 recoveries, bringing the total number of recovered patients to 49. Please stay at home! #COVID19PH HTTPURL
+19. 0.0011432019836251927 #Egypt reported nine new #coronavirus cases and two fatalities on Saturday, the health ministry said in a statement, bringing the totals to 294 confirmed infections and 10 deaths HTTPURL
+20. 0.001112636249847928 New Estimates Say Oregon’s COVID-19 Cases Could Peak In May HTTPURL

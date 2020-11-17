@@ -39,10 +39,10 @@ def process_data(data):
         data = data[data['uniWPercent'] >2]
         data['uniWPercent'] = data['tweet_clean'].apply(lambda x: 0 if len(set(x.split(" ")))/len(x.split(" ")) <= 0.5 else len(x.split(" ")))
     # # # # remove duplicates
-    # data = data.reset_index(drop=True)
+    data = data.reset_index(drop=True)
     # data.drop_duplicates(subset=['tweet_clean'], keep='first', inplace = True)
     # remained_index = data.index
-    data = data.reset_index(drop=True)
+    # data = data.reset_index(drop=True)
     return data
 
 def extract_bertscore(data, column, batch, thres, output_path):
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
         if os.path.exists(input_file):
             lex = Lexrank(data)
-            lex.build_graph_bertscore_from_file(sim_thres=0.01, input_file=input_file)
+            lex.build_graph_bertscore_from_file(sim_thres=0.15, input_file=input_file)
             lex.train(lexrank_iter=100, damping_factor=0.85)
             bertscore_dict = {}
             for key, value in lex.graph.items():
@@ -138,7 +138,7 @@ if __name__ == "__main__":
                     added = True
                     for k in selected:
                         if k in lex.graph[key]:
-                            if lex.graph[key][k]>0.01:
+                            if lex.graph[key][k]>1:
                                 added = False
                                 break
                     
@@ -159,7 +159,7 @@ if __name__ == "__main__":
                     break
             print("Precision: ", 1-count_flase_return/Config.summary_len)
             print("...................................................")
-            sentIds = lex.extract_summary(n_sents=Config.summary_len, cos_thres=0.01, 
+            sentIds = lex.extract_summary(n_sents=Config.summary_len, cos_thres=0.25, 
                         max_sent=data.shape[0])
             count_flase_return = 0
             output_path = Config.bert_score_out+ input_file[input_file.rindex('/')+1: -4]+".txt"
@@ -167,7 +167,7 @@ if __name__ == "__main__":
                 for i, idx in enumerate(sentIds):
                     if data.iloc[idx]['label'] == Config.nonInforLabel:
                         count_flase_return +=1
-                    f.write("{}. {} {}\t{}\n".format(i+1, len(lex.graph[idx]), data.iloc[idx]['tweet_pro'], data.iloc[idx]['label']))
+                    f.write("{}. {} {}   {}\n".format(i+1, len(lex.graph[idx]), data.iloc[idx]['tweet_pro'], data.iloc[idx]['label']))
                 f.write("..........Uncleaned data............\n")
                 for i, idx in enumerate(sentIds):
                     f.write("{}. {} {}\n".format(i+1, lex.scores[idx], data.iloc[idx]['tweet']))

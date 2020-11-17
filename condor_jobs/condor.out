@@ -1,0 +1,70 @@
+Read data ...
+(8000, 3)
+data
+Clean data ...
+0 .....
+Official death toll from #covid19 in the United Kingdom is now GREATER than: Germany + Poland + Switzerland + Austria + Portugal + Greece + Sweden + Finland + Norway + Ireland... COMBINED. UK: 67.5 Million (233 dead) Above group: 185 Million (230 dead) HTTPURL
+official death toll from #covid19 in the united kingdom is now greater than : germany + poland + switzerland + austria + portugal + greece + sweden + finland + norway + ireland ... combined . uk : 67.5 million ( 233 dead ) above group : 185 million ( 230 dead )
+official death toll covid19 united kingdom greater germany poland switzerland austria portugal greece sweden finland norway ireland combined uk 675 million 233 dead group 185 million 230 dead
+1 .....
+Dearest Mr. President TWEETMENTION 1,169 coronavirus deaths in the US in 24 hours (?) Covid19 pandemic is an international crime from China - not a nature disasster! Please use your authorities to protect your people and world against China! #ChinaHasToCompensateAll
+dearest mr. president 1,169 coronavirus deaths in the us in 24 hours (?) covid19 pandemic is an international crime from china - not a nature disasster ! please use your authorities to protect your people and world against china ! #chinahastocompensateall
+dearest mr president 1169 coronavirus deaths us 24 hours covid19 pandemic international crime china nature disasster please use authorities protect people world china chinahastocompensateall
+2 .....
+Latest Updates March 20 ⚠️5274 new cases and 38 new deaths in the United States Illinois: Governo Pritzker issues "stay at home" order for all residents New York: Governor Cuomo orders 100% of all non-essential workers to stay home Penns...Source ( /coronavirus/country/us/ )
+latest updates march 20 ️5274 new cases and 38 new deaths in the united states illinois : governo pritzker issues " stay at home " order for all residents new york : governor cuomo orders 100% of all non-essential workers to stay home penns ... source ( /coronavirus/country/us/ )
+latest updates march 20 ️5274 new cases 38 new deaths united states illinois governo pritzker issues stay home order residents new york governor cuomo orders 100 nonessential workers stay home penns source coronaviruscountryus
+3 .....
+真把公主不当干部 BREAKING: 21 people on Grand Princess cruise ship docked off the California coast tested positive for coronavirus, including 19 crew members and two passengers, Vice Pres. Mike Pence says. 24 people tested negative. HTTPURL HTTPURL
+真把公主不当干部 breaking : 21 people on grand princess cruise ship docked off the california coast tested positive for coronavirus , including 19 crew members and two passengers , vice pres . mike pence says . 24 people tested negative .
+真把公主不当干部 breaking 21 people grand princess cruise ship docked california coast tested positive coronavirus including 19 crew members two passengers vice pres mike pence says 24 people tested negative
+4 .....
+OKLAHOMA CITY — The State Department of Education announced Monday the closure of all K-12 public schools statewide until at least April 6 as the number of COVID-19 cases climb and the risk of community spread grows. HTTPURL
+oklahoma city — the state department of education announced monday the closure of all k-12 public schools statewide until at least april 6 as the number of covid-19 cases climb and the risk of community spread grows .
+oklahoma city state department education announced monday closure k12 public schools statewide least april 6 number covid19 cases climb risk community spread grows
+(7996, 6)
+...............................................
+............Tfidf+Lexrank.............
+(7996, 24281)
+Iteration: 0
+Iteration: 10
+Iteration: 20
+Iteration: 30
+Iteration: 40
+Iteration: 50
+Iteration: 60
+Iteration: 70
+Iteration: 80
+Iteration: 90
+Extracting sentences....
+Summary: 
+[2497, 3646, 4346, 760, 4023, 1359, 4213, 4361, 794, 1520, 4039, 7481, 1559, 132, 7977, 5290, 1976, 6218, 5644, 4717, 1485, 3229, 2457, 1580, 6076]
+/home/ehoang/hnt/tweet_summarization/data/outputs/tfidf_data.txt
+1. 0.0005473844146627058 At least 21 coronavirus cases aboard cruise ship off California coast, Pence says Officials had tested 46 passengers on the cruise ship, which has over 3,000 people aboard. HTTPURL #USRC HTTPURL INFORMATIVE
+2. 0.0005374572453569617 🇺🇸#USA More than 1,000 people have now died from the coronavirus in New York state, 2/3 in New York City. #COVID19 #Coronavirus INFORMATIVE
+3. 0.0004747623121893919 Three new cases of #coronavirus announced in Florida and tonight the Florida Dept. of Health announced two ppl have died one from Lee County and one from Santa Rosa County TWEETMENTION TWEETMENTION TWEETMENTION TWEETMENTION TWEETMENTION TWEETMENTION #COVID19 INFORMATIVE
+4. 0.0004052707129233445 TWEETMENTION TWEETMENTION TWEETMENTION TWEETMENTION .Latest real time #S #coronavirus #DontPanic 0 dead in 30 States 1 dead in 9 States 2 dead in 6 States 3 dead in 3 States 4 dead in 1 State 5 dead in TX 9 dead in NJ &amp; FL 10 dead in LA &amp; GA 19 dead in CA 36 dead in NY 74 dead in WA Total: 206 FLU DEATHS: 22,000 – 55,000 INFORMATIVE
+5. 0.00038663182044740735 No new confirmed cases of the novel coronavirus disease were reported Saturday in central China's Hubei Province, the Health Commission of Hubei said Sunday.#COVID19 The province saw three new deaths, which were all reported in the provincial capital of #Wuhan on Saturday. HTTPURL INFORMATIVE
+6. 0.00036225423035275126 Italy today has reported 793 new deaths and 6,557 new cases in the last 24 hours. Death toll in Italy now at 4,825 and 53,578 confirmed cases. #coronavirus #prayforitaly INFORMATIVE
+7. 0.000353113023535364 #Coronavirusupdate last hours: - First death and 52 new cases in #Colombia - 53 new cases in #Russia - 109 new cases in #Germany. 585 new cases and 25 new deaths in #NewYork state -168 new cases and 3 new deaths in #California - 164 new cases in #Australia INFORMATIVE
+8. 0.00033550578419458947 •Mar 22, 2020 Sen. Rand Paul tests positive for coronavirus. Republican Kentucky senator Rand Paul tests positive for COVID-19 and will remain in quarantine, according to his official Twitter account. HTTPURL INFORMATIVE
+9. 0.000332638971430087 TWEETMENTION 2% COVID-19 U.S. death rate is 100× the death rate of 0.02% for H1N1. It's currently half the global death rate. UNINFORMATIVE
+10. 0.00033197745826252586 Breaking! #COVID19Lagos - Lagos has confirmed 7 new cases of #COVID19 bringing total confirmed cases in Lagos to 18 - 6 out of the 7 new cases have travel history outside Nigeria in the last one week - One of the 7 new cases is a close contact of a confirmed case #LASG HTTPURL INFORMATIVE
+11. 0.0003158057883174604 Two more men, who attended Tablighi Jamaat event in Delhi, have been found #COVID19 positive in Bharatpur. 21 people have tested positive in Rajasthan today out which 10 are linked to Tablighi Jamaat. Total cases stand at 200: State Health Department INFORMATIVE
+12. 0.00030183940246622276 Class is canceled next week at a Portage Park high school after an employee tested positive for COVID-19. Health officials said the state's sixth case of novel coronavirus is a Chicago woman in her 50s employed at Vaughn Occupational High School. HTTPURL HTTPURL INFORMATIVE
+13. 0.0003007704906649342 TWEETMENTION Los Angeles County Public Health Director Barbara Ferrer announced that another health screener at Los Angeles International Airport is one of two new confirmed coronavirus cases in the county at a Los Angeles news conference Friday, March 6, 2020. INFORMATIVE
+14. 0.00029744602030745264 Coronavirus world map: which countries have the most cases and deaths? HTTPURL HTTPURL UNINFORMATIVE
+15. 0.00029744602030745183 West Virginia now has seven confirmed cases of the COVID-19 coronavirus, the latest in Jackson County, according to the West Virginia Department of Health and Human Resources. HTTPURL INFORMATIVE
+16. 0.00029744602030745183 Let’s be clear TWEETMENTION did not cancel because of the coronavirus. They cancelled because “The City of Austin has cancelled the March dates for SXSW and SXSW EDU” UNINFORMATIVE
+17. 0.00029744602030745183 TWEETMENTION Much lower than Europe. As at 6.30am on 21 March 2020, there have been 874 confirmed cases of COVID-19 in Australia. Currently, Australia does not have widespread community transmission of COVID-19. HTTPURL INFORMATIVE
+18. 0.0002974460203074518 B.C. provincial health officer Dr. Bonnie Henry announced 74 new #COVID19 cases in the province on Saturday, bringing the total to 424. HTTPURL INFORMATIVE
+19. 0.0002974460203074517 #Atlanta #GEORGIA Health officials: Possible third coronavirus case in Georgia HTTPURL INFORMATIVE
+20. 0.00028993692415247213 ALERT: Latest LA County COVID-19 Numbers Jump….. **March 20 - 61 New** March 19 - 40 New March 18 - 46 New March 17 - 50 New March 16 - 25 New March 15 - 16 New March 14 - 11 New March 13 - 8 New March 12 - 3 New March 11 - 6 New March 10 - 1 New March 9 - 2 New INFORMATIVE
+21. 0.00027863067412303824 Thirteen people have died from the Coronavirus in Washington State. This is Trump’s response: Trump Calls Washington State Governor Jay Inslee ‘a Snake’ #coronavirus #COVID19 HTTPURL INFORMATIVE
+22. 0.00027161274096556003 #BREAKING: Utah confirms first case of #Covid19 (#Coronavirus). A 60-year-old Davis County, Utah. resident. HTTPURL INFORMATIVE
+23. 0.0002673053316696412 2nd death from #COVIDー19 in Herat provinve. The city of #Herat is fully locked down, yesterday the positive cases increased to 74 in Afghanistan and 53 of them are only in western Herat province. RS confirmed that 4 #NATO troops also tested positive in #AFG &amp; now in isolation. HTTPURL INFORMATIVE
+24. 0.00026594557482517 DHEC investigating two possible cases of COVID-19 in S.C.; one MUSC staff member HTTPURL INFORMATIVE
+25. 0.000261021444893715 #BREAKING: Vice President Mike Pence said he and his wife will be tested for #coronavirus today after a member of his staff tested positive on Friday. HTTPURL HTTPURL INFORMATIVE
+Precision:  0.88
+/home/ehoang/hnt/tweet_summarization/data/inputs/bert_score_data.txt
+Extracting bert score...

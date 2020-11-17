@@ -18,11 +18,6 @@
 18. 0.0002974460203074518 bc provincial health officer dr bonnie henry announced 74 new covid19 cases province saturday bringing total 424	INFORMATIVE
 19. 0.0002974460203074517 atlanta georgia health officials possible third coronavirus case georgia	INFORMATIVE
 20. 0.00028993692415247213 ale latest la county covid19 numbers jump march 20 61 new march 19 40 new march 18 46 new march 17 50 new march 16 25 new march 15 16 new march 14 11 new march 13 8 new march 12 3 new march 11 6 new march 10 1 new march 9 2 new	INFORMATIVE
-21. 0.00027863067412303824 thirteen people died coronavirus washington state trumps response trump calls washington state governor jay inslee snake coronavirus covid19	INFORMATIVE
-22. 0.00027161274096556003 breaking utah confirms first case covid19 coronavirus 60yearold davis county utah resident	INFORMATIVE
-23. 0.0002673053316696412 2nd death covid ー19 herat provinve city herat fully locked yesterday positive cases increased 74 afghanistan 53 western herat province rs confirmed 4 nato troops also tested positive afg isolation	INFORMATIVE
-24. 0.00026594557482517 dhec investigating two possible cases covid19 sc one musc staff member	INFORMATIVE
-25. 0.000261021444893715 breaking vice president mike pence said wife tested coronavirus today member staff tested positive friday	INFORMATIVE
 ..........Uncleaned data............
 1. 0.0005473844146627058 At least 21 coronavirus cases aboard cruise ship off California coast, Pence says Officials had tested 46 passengers on the cruise ship, which has over 3,000 people aboard. HTTPURL #USRC HTTPURL
 2. 0.0005374572453569617 🇺🇸#USA More than 1,000 people have now died from the coronavirus in New York state, 2/3 in New York City. #COVID19 #Coronavirus
@@ -44,8 +39,3 @@
 18. 0.0002974460203074518 B.C. provincial health officer Dr. Bonnie Henry announced 74 new #COVID19 cases in the province on Saturday, bringing the total to 424. HTTPURL
 19. 0.0002974460203074517 #Atlanta #GEORGIA Health officials: Possible third coronavirus case in Georgia HTTPURL
 20. 0.00028993692415247213 ALERT: Latest LA County COVID-19 Numbers Jump….. **March 20 - 61 New** March 19 - 40 New March 18 - 46 New March 17 - 50 New March 16 - 25 New March 15 - 16 New March 14 - 11 New March 13 - 8 New March 12 - 3 New March 11 - 6 New March 10 - 1 New March 9 - 2 New
-21. 0.00027863067412303824 Thirteen people have died from the Coronavirus in Washington State. This is Trump’s response: Trump Calls Washington State Governor Jay Inslee ‘a Snake’ #coronavirus #COVID19 HTTPURL
-22. 0.00027161274096556003 #BREAKING: Utah confirms first case of #Covid19 (#Coronavirus). A 60-year-old Davis County, Utah. resident. HTTPURL
-23. 0.0002673053316696412 2nd death from #COVIDー19 in Herat provinve. The city of #Herat is fully locked down, yesterday the positive cases increased to 74 in Afghanistan and 53 of them are only in western Herat province. RS confirmed that 4 #NATO troops also tested positive in #AFG &amp; now in isolation. HTTPURL
-24. 0.00026594557482517 DHEC investigating two possible cases of COVID-19 in S.C.; one MUSC staff member HTTPURL
-25. 0.000261021444893715 #BREAKING: Vice President Mike Pence said he and his wife will be tested for #coronavirus today after a member of his staff tested positive on Friday. HTTPURL HTTPURL
